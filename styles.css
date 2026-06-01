@@ -1,3 +1,26 @@
+nav {
+    background-color: bisque;
+    padding: 1rem;
+  }
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: initial;
+    color: black;
+    font-weight: bold;
+  }
+  nav ul li a:hover {
+    color: rgba(240, 100, 25, 0.927);
+    font-size: 1.2rem;
+  }
+
+  figure img {
+    opacity: 0.8;
+    border-radius: 50%;
+  }
 table, tr, th, td, caption {
   background-color: bisque;
     border: 1px, solid black;
