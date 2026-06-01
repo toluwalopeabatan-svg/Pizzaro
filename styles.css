@@ -29,8 +29,20 @@ table, tr, th, td, caption {
     padding: 0.5rem;
   }
   body {
-    background-image: url(img/Delicious\ Pizza.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    animation: slideshow 12s infinite;
+  }
+  @keyframes slideshow {
+    0% { background-image: url(img/Delicious\ Pizza.jpg); }
+    33% { background-image: url(img/pizza1.jpg); }
+    66% { background-image: url(img/pizza2.jpg); }
+    100% { background-image: url(img/pizza3.jpg); }
+  }
+  #about{
+    background-color: bisque;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
   }
