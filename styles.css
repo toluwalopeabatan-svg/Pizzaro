@@ -1,6 +1,13 @@
 table, tr, th, td, caption {
+  background-color: bisque;
     border: 1px, solid black;
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
+  }
+  body {
+    background-image: url(img/Delicious\ Pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
